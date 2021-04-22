@@ -12,13 +12,13 @@
  *                           app won't work
  */
 export const magentoOptions = {
-  url: 'http://10.0.2.2/magento2/index.php/', // make sure you have trail slash in the end
+  url: 'http://cms.punyacara.id/', // make sure you have trail slash in the end
   home_cms_block_id: 19, // required int
   store: 'default',
   password_reset_template: 'email_reset', // This is required in order to reset password link to work
   authentication: {
     integration: {
-      access_token: 'j9gyfvge3b9cam4w8ckri2jlm8f1a8j5',
+      access_token: 'y4fmv2en1xpgncvra8crd0nq52shue5w',
     }
   }
 };
@@ -41,4 +41,5 @@ export const currencySymbols = Object.freeze({
   INR: '₹',
   KWD: 'د.ك',
   RON: 'RON',
+  IDR: 'Rp',
 });
